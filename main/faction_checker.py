@@ -2,8 +2,6 @@ from os.path import join, abspath, isdir
 from os import listdir
 from math import floor
 from time import sleep
-from os import getppid, kill
-import signal
 
 def checker(path):
     for file in listdir(path):
