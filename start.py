@@ -3,8 +3,8 @@ from platform import system
 from os import getppid, kill
 import signal
 
-menu = input('Start or Check?: ').lower()
 while True:
+    menu = input('Start or Check?: ').lower()
     if menu == 'start':
         from main import main
         break

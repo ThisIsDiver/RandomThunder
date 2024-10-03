@@ -41,7 +41,7 @@ def ground_rb(country):
         except UnboundLocalError:
             print('Вы что-то сделали не так!')
 
-print('ПРИВЕТСТВУЮ!\nЭто RandomThunder - программное обеспечение с открытым исходным кодом для случайного подбора техники\nЛицензия: MIT\n©ThisIsDiver')
+print('ПРИВЕТСТВУЮ!\nЭто RandomThunder - программное обеспечение с открытым исходным кодом для случайного подбора техники\nВерсия: 0.0.1 Reserve\nЛицензия: MIT\n©ThisIsDiver')
 while True:
     while True:
         country = input('Введите фракцию: US, GE, SU - ').upper()

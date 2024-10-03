@@ -41,7 +41,7 @@ def ground_rb(country):
         except UnboundLocalError:
             print('You did something wrong!')
 
-print('WELCOME!\nThis is RandomThunder - opensource software for random selection of vehicles\nLicense: MIT\n©ThisIsDiver')
+print('WELCOME!\nThis is RandomThunder - opensource software for random selection of vehicles\nVersion: 0.0.1 Reserve\nLicense: MIT\n©ThisIsDiver')
 while True:
     while True:
         country = input('Enter faction: US, GE, SU - ').upper()
