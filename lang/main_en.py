@@ -44,7 +44,7 @@ def ground_rb(country):
 print('WELCOME!\nThis is RandomThunder - opensource software for random selection of vehicles\nVersion: 0.0.1 Reserve\nLicense: MIT\n©ThisIsDiver')
 while True:
     while True:
-        country = input('Enter faction: US, GE, SU - ').upper()
+        country = input('Select faction: US, GE, SU - ').upper()
         if country == 'US' or country == 'GE' or country == 'SU':
             break
         else:
