@@ -7,14 +7,16 @@ def finder(dic,find):
             vehicles.append(i)
     return vehicles
 
-def main(user_limit, country, find, vehicle):
-    txt = open(f'factions/{country}/{vehicle}.txt','r', encoding='utf-8').read().split('\n')
+def main(user_limit, country, find, vehicle, plane_choice):
+    file = open(f'factions/{country}/{vehicle}.txt','r', encoding='utf-8')
+    txt = file.read().split('\n')
     dic = dict()
     randomned = list()
 
     for i in txt:
         i = i.split(' - ')
         dic[i[0]] = i[1]
+    file.close()
     vehicles = finder(dic,find)
     for i in range(len(vehicles)):
         if user_limit == i:
@@ -24,6 +26,7 @@ def main(user_limit, country, find, vehicle):
             if rand not in randomned:
                 randomned.append(rand)
                 break
-    print('| ',end='')
+    if plane_choice == 'n' or plane_choice == 'n' or plane_choice == False:
+        print('| ',end='')
     for i in randomned:
         print(i,end=' | ')
