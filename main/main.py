@@ -79,6 +79,7 @@ csv_reader = csv.DictReader(csv_locale, delimiter=';', fieldnames=['incorrect_en
                                                                    'confirm', 'try_again', 'rb_error','user_limit', 'randomize','br_choice', 'plane_choice',
                                                                    'plane_limit', 'grb_plane_error', 'br'])
 localizator = csv_localisator(csv_reader,localizator=dict())
+csv_locale.close()
 
 
 print(localizator['welcome']+'\n'+localizator['version']+'\n'+localizator['license']+'\n'+localizator['copyright'])
