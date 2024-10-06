@@ -94,7 +94,7 @@ After you make the changes, **it is recommended to check for correctness** by ru
 
 ![image](https://github.com/user-attachments/assets/c8d16f38-df07-491f-b153-540ad48ed3f6)
 
-It is important to understand that the separator is ' - ' and an extra (or missing) space can break the software. Also beware of using '-' with spaces in the technique name. This can also make the software unstable.
+It is important to understand that the separator is ' - ' and an extra character (or an unfinished BR) can break the software. Also beware of using '-' with spaces in the technique name. This can also make the software unstable.
 
 --------------------------
 
@@ -199,7 +199,7 @@ RU
  ![image](https://github.com/user-attachments/assets/c8d16f38-df07-491f-b153-540ad48ed3f6)
 
 
- Важно понимать, что разделителем является ' - ' и лишний (или отсутствующий) пробел может сломать программу. Также остерегайтесь использования '-' с пробелами в названии техники. Это тоже может сделать программу нестабильной.
+ Важно понимать, что разделителем является ' - ' и лишний символ (или недописанный БР) может сломать программу. Также остерегайтесь использования '-' с пробелами в названии техники. Это тоже может сделать программу нестабильной.
 
 --------------------------
 
