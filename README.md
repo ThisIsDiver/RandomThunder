@@ -1,4 +1,4 @@
-RandomThunder ver. 0.0.1 Reserve
+RandomThunder ver. 0.0.2 Reserve
 =====================================
 EN
 =====================================
